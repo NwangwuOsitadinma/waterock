@@ -1,4 +1,1 @@
-<?php
-header("Location: index.htmlgit");
-exit();
-?>
+<?php include_once("index.html"); ?>
