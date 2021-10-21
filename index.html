@@ -20,20 +20,22 @@
     <link rel="stylesheet" href="css/unit-test.css">
     <link rel="stylesheet" href="css/google_map.min.css">
     <link rel="stylesheet" href="css/style30f4.css?v=3">
+    <link rel="stylesheet" href="css/general-container.css">
 </head>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/610a705ad6e7610a49ae8a33/1fc8cdokg';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/610a705ad6e7610a49ae8a33/1fc8cdokg';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
     })();
-    </script>
-    <!--End of Tawk.to Script-->
+</script>
+<!--End of Tawk.to Script-->
+
 <body>
 
     <div class="prague-loader">
@@ -44,8 +46,12 @@
         </div>
     </div>
 
+    <header class="sticky-menu sticky-mobile-menu contact_header">
+        <p>The number goes here</p>
+    </header>
 
-    <header class="prague-header simple sticky-menu sticky-mobile-menu light ">
+    <header id="header_container"
+        class="prague-header simple sticky-menu sticky-mobile-menu position_setting light top_header_top">
 
         <div class="prague-logo">
             <a href="index-2.html">
@@ -98,22 +104,22 @@
 
 
             <div class="prague-social-nav">
-                <a href="#">
+                <!-- <a href="#">
                     <i class="fa fa-chain-broken" aria-hidden="true"></i>
-                </a>
-                <ul class="social-content">
+                </a> -->
+                <ul class="socials">
                     <li>
-                        <a target="_blank" href="#">
+                        <a href="#">
                             <i aria-hidden="true" class="fa fa-instagram"></i>
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="#">
+                        <a href="#">
                             <i aria-hidden="true" class="fa fa-twitter"></i>
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="#">
+                        <a href="#">
                             <i aria-hidden="true" class="fa fa-facebook"></i>
                         </a>
                     </li>
@@ -127,10 +133,8 @@
     <div class="container-fluid no-padd">
         <div class="row">
             <div class="col-xs-12 padd-only-xs">
-                <div class="container-fluid top-banner no-padd  big vindow-height light">
+                <div class="container-fluid top-banner no-padd  big vindow-height light slider_container">
                     <span class="overlay"></span>
-                    <img src="img/banner-home.jpeg" class="s-img-switch"
-                        alt="banner image">
                     <div class="content">
                         <div class="prague-svg-animation-text"></div>
                         <div class="subtitle">NIGERIA'S FIRST MULTI-COLOURED</div>
@@ -141,10 +145,14 @@
                     </div>
                     <div class="top-banner-cursor"></div>
                 </div>
+                <div class="banner_footer">
+                    <h3>The Header</h3>
+                    <p>Some text</p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container no-padd"> 
+    <div class="container no-padd">
         <div class="row-fluid  margin-lg-65t margin-lg-140b margin-sm-70b no-padd">
             <div class="row-fluid  margin-lg-55t margin-sm-20t">
                 <div class="  col-sm-12 no-padd margin-lg-20b margin-xs-40t">
@@ -166,11 +174,10 @@
                                 <div class="portfolio-item-wrapp portfolio-item-paralax js-filter-simple-block">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="#"
-                                                target="_self">
+                                            <a class="project-grid-item-img-link" href="#" target="_self">
                                                 <div class="project-grid-item-img">
-                                                    <img src="products/IMG_7635.jpg"
-                                                        class="s-img-switch" alt="seascape-villa image" />
+                                                    <img src="products/IMG_7635.jpg" class="s-img-switch"
+                                                        alt="seascape-villa image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
@@ -185,11 +192,10 @@
                                 <div class="portfolio-item-wrapp portfolio-item-paralax js-filter-simple-block">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="#"
-                                                target="_self">
+                                            <a class="project-grid-item-img-link" href="#" target="_self">
                                                 <div class="project-grid-item-img">
-                                                    <img src="products/IMG_7636.jpg"
-                                                        class="s-img-switch" alt="seascape-villa image" />
+                                                    <img src="products/IMG_7636.jpg" class="s-img-switch"
+                                                        alt="seascape-villa image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
@@ -204,18 +210,18 @@
                                 <div class="portfolio-item-wrapp portfolio-item-paralax js-filter-simple-block">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="#"
-                                                target="_self">
+                                            <a class="project-grid-item-img-link" href="#" target="_self">
                                                 <div class="project-grid-item-img">
-                                                    <img src="products/IMG_7637.jpg"
-                                                        class="s-img-switch" alt="seascape-villa image" />
+                                                    <img src="products/IMG_7637.jpg" class="s-img-switch"
+                                                        alt="seascape-villa image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
                                                 <h4 class="project-grid-item-title">
                                                     <a href="#" target="_self">Vintage Stone</a>
                                                 </h4>
-                                                <div class="project-grid-item-category">Colours: Orange - 7,400 NGN</div>
+                                                <div class="project-grid-item-category">Colours: Orange - 7,400 NGN
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -223,11 +229,10 @@
                                 <div class="portfolio-item-wrapp portfolio-item-paralax js-filter-simple-block">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="#"
-                                                target="_self">
+                                            <a class="project-grid-item-img-link" href="#" target="_self">
                                                 <div class="project-grid-item-img">
-                                                    <img src="products/IMG_7638.jpg"
-                                                        class="s-img-switch" alt="seascape-villa image" />
+                                                    <img src="products/IMG_7638.jpg" class="s-img-switch"
+                                                        alt="seascape-villa image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
@@ -239,23 +244,23 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="portfolio-item-wrapp portfolio-item-paralax js-filter-simple-blockcolumn_paralax">
+                                <div
+                                    class="portfolio-item-wrapp portfolio-item-paralax js-filter-simple-blockcolumn_paralax">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="#"
-                                                target="_self">
+                                            <a class="project-grid-item-img-link" href="#" target="_self">
                                                 <div class="project-grid-item-img">
-                                                    <img src="products/IMG_7636.jpg"
-                                                        
-                                                        class="s-img-switch" alt="european-lard-station image" />
+                                                    <img src="products/IMG_7636.jpg" class="s-img-switch"
+                                                        alt="european-lard-station image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
                                                 <h4 class="project-grid-item-title">
                                                     <a href="#" target="_self">Clay Ledge
-                                                        </a>
+                                                    </a>
                                                 </h4>
-                                                <div class="project-grid-item-category">Colour: Black Knight - 6,500 NGN</div>
+                                                <div class="project-grid-item-category">Colour: Black Knight - 6,500 NGN
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -263,12 +268,10 @@
                                 <div class="portfolio-item-wrapp portfolio-item-paralax js-filter-simple-block">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="#"
-                                                target="_self">
+                                            <a class="project-grid-item-img-link" href="#" target="_self">
                                                 <div class="project-grid-item-img">
-                                                    <img src="products/IMG_7639.jpg"
-                                                        
-                                                        class="s-img-switch" alt="yabroudi-villa image" />
+                                                    <img src="products/IMG_7639.jpg" class="s-img-switch"
+                                                        alt="yabroudi-villa image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
@@ -284,12 +287,10 @@
                                 <div class="portfolio-item-wrapp portfolio-item-paralax js-filter-simple-block">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="#"
-                                                target="_self">
+                                            <a class="project-grid-item-img-link" href="#" target="_self">
                                                 <div class="project-grid-item-img">
-                                                    <img src="products/IMG_7640.jpg"
-                                                        
-                                                        class="s-img-switch" alt="cultural-complex-centre image" />
+                                                    <img src="products/IMG_7640.jpg" class="s-img-switch"
+                                                        alt="cultural-complex-centre image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
@@ -304,12 +305,10 @@
                                 <div class="portfolio-item-wrapp portfolio-item-paralax js-filter-simple-block">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="#"
-                                                target="_self">
+                                            <a class="project-grid-item-img-link" href="#" target="_self">
                                                 <div class="project-grid-item-img">
-                                                    <img src="products/IMG_7641.jpg"
-                                                        
-                                                        class="s-img-switch" alt="cultural-complex-centre image" />
+                                                    <img src="products/IMG_7641.jpg" class="s-img-switch"
+                                                        alt="cultural-complex-centre image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
@@ -324,19 +323,18 @@
                                 <div class="portfolio-item-wrapp portfolio-item-paralax js-filter-simple-block">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="#"
-                                                target="_self">
+                                            <a class="project-grid-item-img-link" href="#" target="_self">
                                                 <div class="project-grid-item-img">
-                                                    <img src="products/IMG_7642.jpg"
-                                                        
-                                                        class="s-img-switch" alt="cultural-complex-centre image" />
+                                                    <img src="products/IMG_7642.jpg" class="s-img-switch"
+                                                        alt="cultural-complex-centre image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
                                                 <h4 class="project-grid-item-title">
                                                     <a href="#" target="_self">Castle Rock</a>
                                                 </h4>
-                                                <div class="project-grid-item-category">Colours: Orange - 6,700 NGN</div>
+                                                <div class="project-grid-item-category">Colours: Orange - 6,700 NGN
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -344,19 +342,18 @@
                                 <div class="portfolio-item-wrapp portfolio-item-paralax js-filter-simple-block">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="#"
-                                                target="_self">
+                                            <a class="project-grid-item-img-link" href="#" target="_self">
                                                 <div class="project-grid-item-img">
-                                                    <img src="products/IMG_7642.jpg"
-                                                       
-                                                        class="s-img-switch" alt="dalbourne-villa image" />
+                                                    <img src="products/IMG_7642.jpg" class="s-img-switch"
+                                                        alt="dalbourne-villa image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
-                                                <h4 class="project-grid-item-title"><a href="#"
-                                                        target="_self">Ledge Stone</a>
+                                                <h4 class="project-grid-item-title"><a href="#" target="_self">Ledge
+                                                        Stone</a>
                                                 </h4>
-                                                <div class="project-grid-item-category">Colours: Beige, Grey, Orange, Black, Red, Brown - 9,500 NGN</div>
+                                                <div class="project-grid-item-category">Colours: Beige, Grey, Orange,
+                                                    Black, Red, Brown - 9,500 NGN</div>
                                             </div>
                                         </div>
                                     </div>
@@ -364,19 +361,18 @@
                                 <div class="portfolio-item-wrapp portfolio-item-paralax js-filter-simple-block">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="#"
-                                                target="_self">
+                                            <a class="project-grid-item-img-link" href="#" target="_self">
                                                 <div class="project-grid-item-img">
-                                                    <img src="products/IMG_7644.jpg"
-                                                        
-                                                        class="s-img-switch" alt="amman-rotana-hotel image" />
+                                                    <img src="products/IMG_7644.jpg" class="s-img-switch"
+                                                        alt="amman-rotana-hotel image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
-                                                <h4 class="project-grid-item-title"><a href="#"
-                                                        target="_self">Ez Fit Stone</a>
+                                                <h4 class="project-grid-item-title"><a href="#" target="_self">Ez Fit
+                                                        Stone</a>
                                                 </h4>
-                                                <div class="project-grid-item-category">Colours: Rangie, Charcoal, Chalky - 7,400 NGN</div>
+                                                <div class="project-grid-item-category">Colours: Rangie, Charcoal,
+                                                    Chalky - 7,400 NGN</div>
                                             </div>
                                         </div>
                                     </div>
@@ -384,19 +380,18 @@
                                 <div class="portfolio-item-wrapp portfolio-item-paralax js-filter-simple-block">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="#"
-                                                target="_self">
+                                            <a class="project-grid-item-img-link" href="#" target="_self">
                                                 <div class="project-grid-item-img">
-                                                    <img src="products/IMG_7646.jpg"
-                                                        class="s-img-switch wp-post-image"
+                                                    <img src="products/IMG_7646.jpg" class="s-img-switch wp-post-image"
                                                         alt="alvar-alto-museum image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
-                                                <h4 class="project-grid-item-title"><a href="#"
-                                                        target="_self">Cobble Stone</a>
+                                                <h4 class="project-grid-item-title"><a href="#" target="_self">Cobble
+                                                        Stone</a>
                                                 </h4>
-                                                <div class="project-grid-item-category">Colours: Beige, Grey, Orange, Black, Red, Brown - 6,700</div>
+                                                <div class="project-grid-item-category">Colours: Beige, Grey, Orange,
+                                                    Black, Red, Brown - 6,700</div>
                                             </div>
                                         </div>
                                     </div>
@@ -405,18 +400,18 @@
                                 <div class="portfolio-item-wrapp portfolio-item-paralax js-filter-simple-block">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="#"
-                                                target="_self">
+                                            <a class="project-grid-item-img-link" href="#" target="_self">
                                                 <div class="project-grid-item-img">
-                                                    <img src="products/IMG_7649.jpg"
-                                                        class="s-img-switch" alt="french-embassy image" />
+                                                    <img src="products/IMG_7649.jpg" class="s-img-switch"
+                                                        alt="french-embassy image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
                                                 <h4 class="project-grid-item-title">
                                                     <a href="#" target="_self">Woodie Stone</a>
                                                 </h4>
-                                                <div class="project-grid-item-category">Colours: Tan, Pine - 9,500 NGN</div>
+                                                <div class="project-grid-item-category">Colours: Tan, Pine - 9,500 NGN
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -425,18 +420,18 @@
                                     class="portfolio-item-wrapp portfolio-item-paralax js-filter-simple-block button-hide">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="#"
-                                                target="_self">
+                                            <a class="project-grid-item-img-link" href="#" target="_self">
                                                 <div class="project-grid-item-img">
-                                                    <img src="products/IMG_7650.jpg"
-                                                        class="s-img-switch" alt="amman-hotel image" />
+                                                    <img src="products/IMG_7650.jpg" class="s-img-switch"
+                                                        alt="amman-hotel image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
                                                 <h4 class="project-grid-item-title">
                                                     <a href="#" target="_self">Tee Dee</a>
                                                 </h4>
-                                                <div class="project-grid-item-category">Colours: Beige, Grey - 7,400 NGN</div>
+                                                <div class="project-grid-item-category">Colours: Beige, Grey - 7,400 NGN
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -445,18 +440,18 @@
                                     class="portfolio-item-wrapp portfolio-item-paralax js-filter-simple-block button-hide">
                                     <div class="portfolio-item">
                                         <div class="project-grid-wrapper">
-                                            <a class="project-grid-item-img-link" href="#"
-                                                target="_self">
+                                            <a class="project-grid-item-img-link" href="#" target="_self">
                                                 <div class="project-grid-item-img">
-                                                    <img src="products/IMG_7652.jpg"
-                                                        class="s-img-switch" alt="amman-hotel image" />
+                                                    <img src="products/IMG_7652.jpg" class="s-img-switch"
+                                                        alt="amman-hotel image" />
                                                 </div>
                                             </a>
                                             <div class="project-grid-item-content">
                                                 <h4 class="project-grid-item-title">
                                                     <a href="#" target="_self">Big Split & King Castle</a>
                                                 </h4>
-                                                <div class="project-grid-item-category">Colours: Beige, Grey - 7,400</div>
+                                                <div class="project-grid-item-category">Colours: Beige, Grey - 7,400
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -492,25 +487,27 @@
                         <h2 class="title">We're the best<br />
                             at what we do.</h2>
                         <div class="content padding-xs-40b">
-                            <p>With over 10 years of experience in manufacturing stone tiles, thin brick, tile and precast products, 
-                                we at Waterock pride ourseleves as the first and the best that the Nigerian stone industry has to offer.</p>
-                            <p>With our 50,000 square ft factory located in the heart of Enugu,  Nigeria, We can meet all your needs when it comes to stone tiles.</p>
+                            <p>With over 10 years of experience in manufacturing stone tiles, thin brick, tile and
+                                precast products,
+                                we at Waterock pride ourseleves as the first and the best that the Nigerian stone
+                                industry has to offer.</p>
+                            <p>With our 50,000 square ft factory located in the heart of Enugu, Nigeria, We can meet all
+                                your needs when it comes to stone tiles.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+
     </div>
-    
+
     <div class="row-fluid row-no-padding">
         <div class="no-padd col-sm-12 ">
             <div class="column-inner ">
                 <div class="prague-shortcode-parent ">
                     <div class="prague-shortcode-parent-img">
                         <span class="overlay"></span>
-                        <img src="img/services-main.jpeg" 
-                            class="s-img-switch" alt="middle-banner image" />
+                        <img src="img/services-main.jpeg" class="s-img-switch" alt="middle-banner image" />
                     </div>
                     <div class="prague-shortcode-content-wrapp">
                         <div class="prague-shortcode-heading  light left">
@@ -527,7 +524,8 @@
                                             <span class="services-item-icon icon-circle-compass"></span>
                                             <h3 class="services-item-title">Manufacture</h3>
                                             <div class="services-item-description">
-                                                <p>We don't worry about supply because all our stones are made by us.</p>
+                                                <p>We don't worry about supply because all our stones are made by us.
+                                                </p>
                                             </div>
                                             <a href="manufacturing.html" class="prague-services-link a-btn-2 creative"
                                                 target="_self">
@@ -542,7 +540,8 @@
                                             <span class="services-item-icon icon-lightbulb"></span>
                                             <h3 class="services-item-title">Sell</h3>
                                             <div class="services-item-description">
-                                                <p>We can advise, recommend and sell the best stones for your projects</p>
+                                                <p>We can advise, recommend and sell the best stones for your projects
+                                                </p>
                                             </div>
                                             <a href="sell.html" class="prague-services-link a-btn-2 creative"
                                                 target="_self">
@@ -557,7 +556,8 @@
                                             <span class="services-item-icon icon-layers"></span>
                                             <h3 class="services-item-title">Install</h3>
                                             <div class="services-item-description">
-                                                <p>We can hook you up with our expert installers for a neat and perfect job.</p>
+                                                <p>We can hook you up with our expert installers for a neat and perfect
+                                                    job.</p>
                                             </div>
                                             <a href="install.html" class="prague-services-link a-btn-2 creative"
                                                 target="_self">
@@ -598,7 +598,8 @@
                             <div class="testimonials-item">
                                 <span class="testimonials-icon fa fa fa-quote-right"></span>
                                 <blockquote class="testimonials-description">
-                                    <p>Incredible as always. These guys have excellent taste. The design fits in with what I want. I totally recommend.</p>
+                                    <p>Incredible as always. These guys have excellent taste. The design fits in with
+                                        what I want. I totally recommend.</p>
                                 </blockquote>
                                 <h4 class="testimonials-author">Chukwuemeka</h4>
                             </div>
@@ -607,7 +608,8 @@
                             <div class="testimonials-item">
                                 <span class="testimonials-icon fa fa fa-quote-right"></span>
                                 <blockquote class="testimonials-description">
-                                    <p>I honestly don't think you will find better products than this in the Nigerian market. The people at waterock know what they're doing</p>
+                                    <p>I honestly don't think you will find better products than this in the Nigerian
+                                        market. The people at waterock know what they're doing</p>
                                 </blockquote>
                                 <h4 class="testimonials-author">Nnamdi</h4>
                             </div>
@@ -616,7 +618,8 @@
                             <div class="testimonials-item">
                                 <span class="testimonials-icon fa fa fa-quote-right"></span>
                                 <blockquote class="testimonials-description">
-                                    <p>Stones with a touch of class. I can promise that you won't regret buying from them</p>
+                                    <p>Stones with a touch of class. I can promise that you won't regret buying from
+                                        them</p>
                                 </blockquote>
                                 <h4 class="testimonials-author">Henry</h4>
                             </div>
@@ -660,12 +663,14 @@
                             <div class="address-block-outer">
                                 <span class="separator"></span>
                                 <h4 class="address-title">EMAIL</h4>
-                                <p><a href="https://w5.foxdsgn.com/cdn-cgi/l/email-protection#2050524147554560494e464f0e434f4d"><span>
-                                    info@waterock.com
-                                </span></a><br />
-                                <a href="https://w5.foxdsgn.com/cdn-cgi/l/email-protection#2050524147554560494e464f0e434f4d"><span>
-                                    buy@waterock.com
-                                </span></a>
+                                <p><a
+                                        href="https://w5.foxdsgn.com/cdn-cgi/l/email-protection#2050524147554560494e464f0e434f4d"><span>
+                                            info@waterock.com
+                                        </span></a><br />
+                                    <a
+                                        href="https://w5.foxdsgn.com/cdn-cgi/l/email-protection#2050524147554560494e464f0e434f4d"><span>
+                                            buy@waterock.com
+                                        </span></a>
                                 </p>
                             </div>
                         </div>
@@ -743,8 +748,7 @@
 
 
     <footer class="prague-footer default">
-        <img src="#" data-lazy-src="img/banner-main.jpeg" class="s-img-switch"
-            alt="footer banner" />
+        <img src="#" data-lazy-src="img/banner-main.jpeg" class="s-img-switch" alt="footer banner" />
         <div class="footer-content-outer">
             <div class="footer-top-content">
                 <div class="prague-footer-main-block">
@@ -754,7 +758,7 @@
                                 alt="logo" /> </a>
                     </div>
                     <div class="footer-main-content">
-                        <p>We pride ourselves as the best in our industry. 
+                        <p>We pride ourselves as the best in our industry.
                             With all our years of experience, we can assure the best quality
                             at the best prices.
                         </p>
@@ -765,8 +769,8 @@
                     <div class="footer-info-block-content">
                         <p><a href="tel:+7(885)5896985">+(234) 803 304 1741</a></p>
                         <p><a href="https://w5.foxdsgn.com/cdn-cgi/l/email-protection#2050524147554560494e464f0e434f4d"><span>
-                            info@waterock.com
-                        </span></a>
+                                    info@waterock.com
+                                </span></a>
                         </p>
                         <p>Old airport road, by thinkers corner, Emene Industrial estate, Enugu</p>
                     </div>
@@ -787,7 +791,7 @@
                         </li>
                         <li>
                             <a target="_blank" href="#>
-                                <i aria-hidden="true" class="fa fa-twitter"></i>
+                                <i aria-hidden=" true" class="fa fa-twitter"></i>
                             </a>
                         </li>
                         <li>
@@ -808,6 +812,7 @@
     <script src="js/hammer.min.js"></script>
     <script src="js/foxlazy.min.js"></script>
     <script src="js/all.js"></script>
+    <script src="js/homeHeader.js"></script>
 </body>
 
 
