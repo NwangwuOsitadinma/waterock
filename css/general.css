@@ -32,15 +32,15 @@
 
 @keyframes slide {
     0% {
-        background-image: url(../images/slider/1.jpg);
+        background-image: url(/home/IMG_2573\ 2.JPG);
     }
     33% {
-        background-image: url(../images/slider/2.jpg);
+        background-image: url(/home/IMG_2589.JPG);
     }
     66% {
-        background-image: url(../images/slider/3.jpg);
+        background-image: url(/home/IMG_3113.JPG);
     }
     100% {
-        background-image: url(../images/slider/4.jpg);
+        background-image: url(/home/IMG_4132.JPG);
     }
 }

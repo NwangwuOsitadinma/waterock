@@ -1,10 +1,10 @@
 .slider_container {
-    /* background: url("/images/slider/1.jpg"); */
+    background: url("/images/slider/1.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     animation: slide 10s infinite;
 }
 
@@ -14,7 +14,7 @@
 
 .banner_footer {
     padding: 20px 30px;
-    background-color: rgb(61, 64, 71);
+    /* background-color: rgb(168, 170, 175); */
 }
 
 .contact_header {
@@ -45,15 +45,15 @@
 
 @keyframes slide {
     0% {
-        background-image: url(../img/slider-images/1.jpg);
+        background-image: url(/home/IMG_2573\ 2.JPG);
     }
     33% {
-        background-image: url(../img/slider-images/2.jpg);
+        background-image: url(/home/IMG_2589.JPG);
     }
     66% {
-        background-image: url(../img/slider-images/3.jpg);
+        background-image: url(/home/IMG_3113.JPG);
     }
     100% {
-        background-image: url(../img/slider-images/4.jpg);
+        background-image: url(/home/IMG_4132.JPG);
     }
 }
